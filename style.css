@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0f0f17;
+    color: #fff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #1e1e2e;
+}
+header .logo {
+    width: 100px;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #00d1ff;
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('assets/hero_bg.webp') no-repeat center center/cover;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #00d1ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0088cc;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #1e1e2e;
+    color: #ccc;
+}
