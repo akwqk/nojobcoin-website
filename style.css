@@ -1,0 +1,50 @@
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0e0e10;
+    color: #ffffff;
+}
+
+/* Enter Page */
+.enter-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+.enter-container h1 {
+    font-size: 3rem;
+    animation: fadeInText 2s ease-in-out;
+}
+.enter-container span {
+    color: #00d1ff;
+}
+.enter-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #00d1ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #1e1e2e, #2c2c3d);
+}
+button:hover {
+    background: #0088cc;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #1e1e2e;
+    color: #ccc;
+}
